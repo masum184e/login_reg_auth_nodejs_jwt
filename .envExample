@@ -1,0 +1,11 @@
+PORT="4000"
+DATABASE_URL="mongodb://localhost:27017"
+BCRYPT_GEN_SALT_NUMBER=10
+JWT_SECRET_KEY="JWT_SECRET_KEY_CAN_BE_ANY_STRING_NUMBER_CHARACTER"
+TOKEN_EXPIRES="5d"
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USER = 'youremail@gmail.com'
+EMAIL_PASS = 'your_email_password'
+EMAIL_FROM = 'youremail@gmail.com'
